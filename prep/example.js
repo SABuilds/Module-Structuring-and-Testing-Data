@@ -1,4 +1,7 @@
 let greet = "Hello";
 Math.round(13.4);
-let greetExample = `${greet} there, example`
+let GreetExample = `${greet} there, example`;
 console.log("hello there!");
+function convertToPercentage(decimal) {
+    return `${decimal * 100}%`
+}
