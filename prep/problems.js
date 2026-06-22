@@ -5,11 +5,10 @@ let width = 3; // This is just a variable
 let height = 4; // This is also a variable
 
 function calculateArea() { // This is a function to calculate the area
-  const area = width * height;
-  console.log('hello world')
+  return width * height; // return value when function is called
 }
 
-calculateArea
+let area = calculateArea() //set function output to be put inside variable
 
 console.log(area); //This displays the value 
 
