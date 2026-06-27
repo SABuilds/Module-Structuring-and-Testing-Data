@@ -21,3 +21,5 @@ const num = Math.floor(Math.random() * (maximum - minimum + 1)) + minimum;
 // Try logging the value of num and running the program several times to build an idea of what the program is doing
 
 // The function outputs a random decimal number that is multiplied by 100 after which 1 is added to the output. 
+// Math floor always rounds the number down to the nearest whole integer. This means the output is always a whole number and 
+// between the values of 1 and 100
