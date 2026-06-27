@@ -1,4 +1,4 @@
-const movieLength = 8784; // length of movie in seconds
+const movieLength = 32000; // length of movie in seconds (org amount 8784)
 
 const remainingSeconds = movieLength % 60;
 const totalMinutes = (movieLength - remainingSeconds) / 60;
@@ -37,3 +37,6 @@ console.log(movieRuntime);
 // I would call the variable movieRuntime. 
 
 // f) Try experimenting with different values of movieLength. Will this code work for all values of movieLength? Explain your answer
+
+// The code can not account for a movie exceeding 24 hours as there is no day field. It will also have empty fields where the movie length is less than an hour. 
+// These are just minor nitpicks however. 
