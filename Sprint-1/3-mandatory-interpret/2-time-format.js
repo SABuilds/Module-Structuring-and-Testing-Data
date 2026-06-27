@@ -13,6 +13,8 @@ console.log(result);
 
 // a) How many variable declarations are there in this program?
 
+// There are 6 
+
 // b) How many function calls are there?
 
 // c) Using documentation, explain what the expression movieLength % 60 represents
