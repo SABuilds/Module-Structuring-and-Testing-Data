@@ -22,7 +22,10 @@ console.log(result);
 // c) Using documentation, explain what the expression movieLength % 60 represents
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators
 
+// The % is a remainder operator. In this instance it divides the variable totalMinutes by 60 and outputs the remainder
+
 // d) Interpret line 4, what does the expression assigned to totalMinutes mean?
+
 
 // e) What do you think the variable result represents? Can you think of a better name for this variable?
 
