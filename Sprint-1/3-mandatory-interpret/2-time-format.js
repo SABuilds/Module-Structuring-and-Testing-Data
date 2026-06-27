@@ -26,7 +26,12 @@ console.log(result);
 
 // d) Interpret line 4, what does the expression assigned to totalMinutes mean?
 
+// The movielength subtracted by the remaining seconds which is then divided by 60
+// The output of the brackets makes the length of the movie a number divisible by 60 in order to find out how many whole
+// minutes the movie is. 
 
 // e) What do you think the variable result represents? Can you think of a better name for this variable?
+
+//
 
 // f) Try experimenting with different values of movieLength. Will this code work for all values of movieLength? Explain your answer
